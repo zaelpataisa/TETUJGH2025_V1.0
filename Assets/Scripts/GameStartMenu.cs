@@ -47,7 +47,7 @@ public class GameStartMenu : MonoBehaviour
     }
     public void ToCarsScene()
     {
-        StartCoroutine(ChangeSceneWithDelay("02_Scene_Cars", 1f));
+        StartCoroutine(ChangeSceneWithDelay("01_Classroom", 1f));
     }
     public void EnableInfoTitle()
     {
